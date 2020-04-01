@@ -6,13 +6,14 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "dev": "vue-cli-service serve --mode dev",
-    "prod": "vue-cli-service build --mode prod"
+    "build:pro": "vue-cli-service build --mode prod"
   },
   "dependencies": {
     "axios": "^0.19.2",
     "comment": "0.0.2",
     "core-js": "^3.6.4",
     "echarts": "^4.7.0",
+    "element-ui": "^2.13.0",
     "jquery": "^3.4.1",
     "js-md5": "^0.7.3",
     "mdui": "^0.4.3",
@@ -25,6 +26,7 @@
     "@vue/cli-plugin-router": "~4.2.0",
     "@vue/cli-plugin-vuex": "~4.2.0",
     "@vue/cli-service": "~4.2.0",
+    "babel-plugin-component": "^1.1.1",
     "less": "^3.11.1",
     "less-loader": "^5.0.0",
     "vue-loader": "^14.2.2",

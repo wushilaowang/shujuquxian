@@ -1,8 +1,9 @@
 import axios from "axios";
 
 export default function request(option) {
+    console.log(process.env);
     const instance = axios.create({
-        baseURL: process.env.NODE_ENV == 'development' ? '/api/api' : '/api',
+        baseURL: process.env.VUE_APP_BASEURL,
         timeout: '5000'
     })
 

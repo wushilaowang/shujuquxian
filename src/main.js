@@ -5,7 +5,13 @@ import store from './store'
 import axios from "axios";
 import mdui from "mdui"
 import echarts from 'echarts'
+import { Button, DatePicker, Select, Option } from 'element-ui';
 
+
+Vue.use(Button)
+Vue.use(DatePicker)
+Vue.use(Select)
+Vue.use(Option)
 
 Vue.config.productionTip = false
 Vue.use(mdui)
